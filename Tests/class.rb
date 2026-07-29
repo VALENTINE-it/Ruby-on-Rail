@@ -14,3 +14,4 @@ end
 p = Person.new("Valentine", 21)
 p2 = Person.new("Vale", 20)
 puts Person.how_many
+
