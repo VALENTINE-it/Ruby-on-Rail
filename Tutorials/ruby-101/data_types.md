@@ -167,3 +167,21 @@ GeeksforGeeks
 GFG
 Geeks
 ```
+
+## nil
+
+In Ruby, nil is an explicit object that represents "nothingness" or the absence of a value.Unlike some languages where a missing value results in a crash or a null primitive error, Ruby treats nil as a fully functional object belonging to the NilClass.Key Characteristics of nilIt is an Object: Since Ruby is a pure Object-Oriented language, nil has its own methods. You can run nil.to_s (returns an empty string "") or nil.to_a (returns an empty array []).It Evaluates to False: In Boolean context, nil is treated as falsy. Along with the boolean false, it is the only other object in Ruby that evaluates to false.Default Return Value: If a method has nothing to return, or if you request a non-existent element from an array or hash, Ruby safely returns nil.Code Examples1. Checking for nilYou can use the .nil? method on any object in Ruby to check if it equals nil.rubyusername = nil
+
+puts username.nil?
+# Output: true
+
+age = 25
+puts age.nil?
+# Output: false
+
+## code example
+
+fruits = ["apple", "banana", "cherry"]
+
+puts fruits[5].inspect
+
