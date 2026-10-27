@@ -59,12 +59,14 @@ Ruby itself uses inheritance to enable methods like:
 puts
 class
 super
+
 This is because all Ruby objects inherit from the Object class by default.
 
 So if you create a class like this:
 
 class Apple
 end
+
 Its parent class is Object:
 
 Apple.superclass
