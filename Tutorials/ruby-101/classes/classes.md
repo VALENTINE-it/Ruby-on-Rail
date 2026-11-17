@@ -1,10 +1,10 @@
-What is a class in Ruby?
+## What is a class in Ruby?
 
 Classes are the basic building blocks in Object-Oriented Programming (OOP) & they help you define a blueprint for creating objects.
 
 Objects are the products of the class.
 
-So what is an object?
+## So what is an object?
 
 An object is an individual “thing”, with its own identity & its own data.
 
@@ -25,7 +25,7 @@ The syntax for creating a class goes like this:
 class Orange
 end
 
-Notice that:
+## Notice that:
 
 Class names start with an uppercase letter.
 We use the class keyword, then the end keyword.

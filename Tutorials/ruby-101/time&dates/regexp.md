@@ -76,14 +76,14 @@ Each of the methods Regexp#match, String#match, and Symbol#match returns a Match
 'food'.match(/foo/) # => #<MatchData "foo">
 'food'.match(/bar/) # => nil
 
-Operator =~
+## Operator `=~`
 Each of the operators Regexp#=~, String#=~, and Symbol#=~ returns an integer offset if a match was found, nil otherwise; each also sets global variables:
 
 /bar/ =~ 'foo bar' # => 4
 'foo bar' =~ /bar/ # => 4
 /baz/ =~ 'foo bar' # => nil
 
-Method match?
+## Method match?
 Each of the methods Regexp#match?, String#match?, and Symbol#match? returns true if a match was found, false otherwise; none sets global variables:
 
 'food'.match?(/foo/) # => true

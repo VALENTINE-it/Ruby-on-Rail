@@ -15,13 +15,13 @@ It is similar to `loop loop` only that now you declare the condition that will b
 
 i = 0
 while i < 10 do
-puts "i is #{i}"
-i += 1
+  puts "i is #{i}"
+    i += 1
 end
 
 You can also use while loops to repeatedly ask a question of the user until they give the desired response:
 
-while gets.chomp != "yes" do
+while gets.chomp != "yes"
   puts "Are we there yet?"
 end
 
@@ -30,7 +30,7 @@ end
 The until loop is the opposite of the while loop. A while loop continues for as long as the condition is true, whereas an until loop continues for as long as the condition is false.
 
 i = 0
-until i >= 10 do
+until i >= 10 
 puts "i is #{i}"
 i += 1
 end
@@ -76,7 +76,7 @@ end
 
 The break keyword is used to end loop & returns a value, instead of skipping just one iteration.
 
-Refer back to the loop loop for example.
+Refer back to the kernel loop for example.
 
 ## Next
 

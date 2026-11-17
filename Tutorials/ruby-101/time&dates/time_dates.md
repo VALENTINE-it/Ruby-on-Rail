@@ -15,9 +15,9 @@ This information is stored by the Time class as the number of seconds since the 
 
 # There are a few ways to initialize a Time object:
 
-You can get an object that represents the current time using Time.now
-You can create a Time object using an Unix timestamp & the at method
-You can give the starting date in numbers to Time.new (format: year/month/day)
+You can get an object that represents the current time using `Time.now`
+You can create a Time object using an Unix timestamp & the `at` method
+You can give the starting date in numbers to `Time.new` (format: year/month/day)
 
 # Example: 
 
